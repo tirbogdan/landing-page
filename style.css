@@ -182,3 +182,13 @@ body {
     text-align: end;
     color: #1f2937;
 } 
+
+/* Section 4 */
+
+.section4 {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
