@@ -131,7 +131,7 @@ body {
 
 .card-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-top: 32px;
     width: 100%;
 }
@@ -157,3 +157,28 @@ body {
     width: 100%;
     text-align: center;
 }
+
+
+
+/* Section 3  */
+
+.section3 {
+    background-color: #e5e7eb;
+    padding: 64px 0px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1f2937;
+    padding: 64px 31% 0px 31%;
+}
+
+.author {
+    font-size: 18px;
+    font-weight: 900;
+    padding: 8px 25%;
+    text-align: end;
+    color: #1f2937;
+} 
