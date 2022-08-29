@@ -84,7 +84,7 @@ body {
 }
 
 #sign-up-button-top {
-    background-color: #3882f6;
+    background-color: #3b82f6;
     color: #e5e7eb;
     font-weight: 700;
     border-radius: 8px;
@@ -145,7 +145,7 @@ body {
 
 .card-box {
     display: block;
-    border: 4px solid #3882f6;
+    border: 4px solid #3b82f6;
     border-radius: 16px;
     width: 150px;
     height: 150px;
@@ -190,5 +190,40 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #f9faf8;
 }
 
+.section4-container {
+    background-color: #3b82f6;
+    padding: 32px;
+    border-radius: 8px;
+    width: 53%;
+    margin: 64px auto;
+    padding: 64px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.section4-heading {
+    font-weight: 700;
+}
+
+.sign-up-button {
+    color: #f9faf8;
+    font-weight: 700;
+    background-color: #3b82f6;
+    border: 4px solid #f9faf8 ;
+    border-radius: 8px;
+    width: 128px;
+    height: 32px;
+}
+
+/* Footer */
+
+.footer {
+    text-align: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 32px;
+}
