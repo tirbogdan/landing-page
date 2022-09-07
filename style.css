@@ -31,18 +31,18 @@ body {
 
 /* Section 1 */
 
-#section1 {
+.section1 {
   background-color: #1f2937;
   display: flex;
   justify-content: center;
 }
 
-#section1-container {
+.section1-container {
   color: white;
   max-width: 56%;
 }
 
-#navbar {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -50,12 +50,12 @@ body {
   width: 100%;
 }
 
-#logo {
+.logo {
   font-size: 24px;
   color: #f9faf8;
 }
 
-#links {
+.links {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -70,7 +70,7 @@ body {
   text-decoration: none;
 }
 
-#header-content-container {
+.header-content-container {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -79,7 +79,7 @@ body {
   width: 100%;
 }
 
-#content {
+.content {
   flex: 1;
 }
 
@@ -89,7 +89,7 @@ body {
   font-weight: 800;
 }
 
-#content-paragraph {
+.content-paragraph {
   color: #e5e7eb;
   font-size: 18px;
 }
@@ -99,7 +99,7 @@ body {
   padding: 8px 32px;
 }
 
-#top-image {
+.top-image {
   flex: 1 2 0;
   max-width: 600px;
   min-width: 300px;
@@ -108,18 +108,18 @@ body {
 
 /* Section 2 */
 
-#section2 {
+.section2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
 }
 
-#section2-container {
+.section2-container {
   width: 56%;
 }
 
-#section2-heading {
+.section2-heading {
   color: #1f2937;
   text-align: center;
   font-size: 36px;
@@ -128,7 +128,7 @@ body {
   width: 100%;
 }
 
-#card-container {
+.card-container {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -159,13 +159,13 @@ body {
 
 /* Section 3  */
 
-#section3 {
+.section3 {
   background-color: #e5e7eb;
   padding: 64px 0px;
   width: 100%;
 }
 
-#quote {
+.quote {
   color: #1f2937;
   font-size: 36px;
   font-style: italic;
@@ -173,7 +173,7 @@ body {
   padding: 64px 31% 0px 31%;
 }
 
-#author {
+.author {
   color: #1f2937;
   font-size: 18px;
   font-weight: 900;
@@ -183,7 +183,7 @@ body {
 
 /* Section 4 */
 
-#section4 {
+.section4 {
   background-color: #ffffff;
   color: #f9faf8;
   display: flex;
@@ -191,7 +191,7 @@ body {
   align-items: center;
 }
 
-#section4-container {
+.section4-container {
   background-color: #3b82f6;
   display: flex;
   justify-content: space-around;
@@ -202,7 +202,7 @@ body {
   padding: 64px;
 }
 
-#section4-heading {
+.section4-heading {
   font-weight: 700;
 }
 
@@ -218,7 +218,7 @@ body {
 
 /* Footer */
 
-footer {
+.footer {
   color: #f9faf8;
   background-color: #1f2937;
   text-align: center;
